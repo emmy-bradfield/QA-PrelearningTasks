@@ -87,12 +87,12 @@ print(factors(13)) # Should print [] (an empty list) to the console
 
 <details>
 <summary>Hint</summary>
-You'll need a use a `for` loop to iterate through Look up the modulo (`%`) operator to find remainders.
+You'll need a use a for loop to iterate through every number between 1 and input number. Look up the modulo (%) operator to find remainders.
 </details>
 
 <details>
 <summary>Stretch Goal</summary>
-If `number` doesn’t have any factors, adapt the function so the the output is a string value stating that the input is prime in the format “{number} is a prime number”.
+If the input number doesn’t have any factors, adapt the function so the the output is a string value stating that the input is prime in the format “{number} is a prime number”.
 
 **Examples**
 ```
