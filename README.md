@@ -6,13 +6,13 @@ The purpose of these exercises is to help you get familiar with solving Python p
 
 ## Instructions
 
-There are 3 tasks in this repository designed for you to complete before you begin your training with QA to get you familiar with Python. All of these foundation tasks should be completed before you begin your training. They can be found in the `tasks` folder.
+There are 3 tasks in this repository designed for you to complete before you begin your training with QA to get you familiar with Python. All of these foundation tasks should be completed **before** you begin your training. They can be found in the `tasks` folder.
 
 Each task has a corresponding stretch goal that gets you to design a more advanced implementation of the foundation task. We encourage you to attempt these as they will put you in good stead for your time in the academy, but should only be attempted once you've completed the foundation tasks. They can be viewed by clicking on the 'Stretch Goal' drop-down buttons for each task. Enter these solutions in the .py files in the `stretch-goals` folder.
 
 To complete these exercises:
 
-1. Fork this repository to your GitHub account
+1. Fork this repository to your GitLab account
 2. Clone your forked repository to your local machine
 3. Each of the tasks has a corresponding .py file, specifying where you should enter your code – enter the code solution within the section marked with:
    ```
@@ -22,13 +22,17 @@ To complete these exercises:
    # ==============
    ```
 
-WORK IN PROGRESS
-
 4. When you want to check your code works, perform the following git commands:
    - `git add .` (add any new changes)
    - `git commit -m "pushing for validation"` (commit new changes to your local branch)
    - `git push` (push the changes to the GitLab repository)
-5. Automatic testing of the code will occur and you will receive an email confirming whether your code passed or failed
+5. You must have attempted these three exercises and pushed solutions to your personal GitLab account before you start the Academy.
+
+### If you do not have access to Python 3 Environment
+
+You can still complete this task by making use of the Browser integration with GitLab, and by using a Python 3 REPL such as:
+
+https://repl.it/@enaard/Python-3
 
 ## Exercises
 
