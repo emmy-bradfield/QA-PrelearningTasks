@@ -1,13 +1,19 @@
 def vowel_swapper(string):
     # ==============
     # Your code here
-    for char in string:
-        string.replace('a', '4')
-        string.replace('e', '3')
-        string.replace('o', 'ooo')
-        string.replace('O', '000')
-        string.replace('u', '|_|')
-    return vowel_swapper
+    new_string=string.replace('a', '1')
+    string=new_string
+    new_string=string.replace('e', '3')
+    string=new_string
+    new_string=string.replace('i', '!')
+    string=new_string
+    new_string=string.replace('o', 'ooo')
+    string=new_string
+    new_string=string.replace('O', '000')
+    string=new_string
+    new_string=string.replace('u','|_|')
+    string=new_string
+    return string
     # ==============
 
 print(vowel_swapper("aA eE iI oO uU")) # Should print "44 33 !! ooo000 |_||_|" to the console
