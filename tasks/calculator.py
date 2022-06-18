@@ -1,7 +1,14 @@
 def calculator(a, b, operator):
     # ==============
     # Your code here
-
+    if operator == '+':
+        return(int(a+b))
+    if operator == '-':
+        return(int(a-b))
+    if operator == '/':
+        return(int(a/b))
+    if operator == '*':
+        return(int(a*b))
     # ==============
 
 print(calculator(2, 4, "+")) # Should print 6 to the console

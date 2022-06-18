@@ -1,7 +1,12 @@
 def vowel_swapper(string):
     # ==============
     # Your code here
-    string.replace('a', '4').replace('e', '3').replace('i', '!').replace('o', 'ooo').replace('O', '000').replace('u', '|_|')
+    for char in string:
+        string.replace('a', '4')
+        string.replace('e', '3')
+        string.replace('o', 'ooo')
+        string.replace('O', '000')
+        string.replace('u', '|_|')
     return vowel_swapper
     # ==============
 
