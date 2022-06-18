@@ -1,7 +1,12 @@
 def vowel_swapper(string):
     # ==============
     # Your code here
-
+    string.replace('a', 4)
+    string.replace('e', 3)
+    string.replace('i', '!')
+    string.replacec('o'.lower, 'ooo')
+    string.replace('O'.upper, 000)
+    string.replace('u', '|_|')
     # ==============
 
 print(vowel_swapper("aA eE iI oO uU")) # Should print "44 33 !! ooo000 |_||_|" to the console
