@@ -1,10 +1,14 @@
+from re import I
+
+
 def factors(number):
     # ==============
     # Your code here
-   print("The factors of",number,"are:")
-   for i in range(1, number + 1):
-       if number % i == 0:
-           print(i)
+        print("The factors of",number,"are:")
+        for i in range(1, number + 1):
+         if number % i == 0:
+            return(i)
+        print()
     # ==============
 
 print(factors(15)) # Should print [3, 5] to the console
